@@ -3,7 +3,7 @@ This repository contains packages that are maintained by piraces (automatically 
 
 # List of packages
 
-- [duf](https://github.com/muesli/duf): Disk Usage/Free Utility (Linux, BSD, macOS & Windows)
+- [duf](https://github.com/muesli/duf): Disk Usage/Free Utility (Linux, BSD, macOS & Windows).
 - [Azure Bicep](https://github.com/Azure/bicep): Compiles bicep (DSL for deploying Azure resources declaratively) files into ARM templates. Cross-platform.
 
 # Contributions
