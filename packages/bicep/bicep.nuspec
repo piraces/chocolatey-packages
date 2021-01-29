@@ -18,10 +18,11 @@ Bicep is created and owned by Microsoft Azure.
     <tags>bicep ARM azure DSL utility cli compiler</tags>
     <licenseUrl>https://github.com/ariya/phantomjs/blob/master/LICENSE.BSD</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl></iconUrl>
+    <iconUrl>https://github.com/piraces/chocolatey-packages/blob/main/icons/bicep.png</iconUrl>
     <releaseNotes>https://github.com/Azure/bicep/releases</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
   </files>
 </package>
+<!-- character encoding: “UTF-8” -->

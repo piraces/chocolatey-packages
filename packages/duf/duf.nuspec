@@ -17,7 +17,7 @@ duf is created by Christian Muehlhaeuser.
     <tags>duf disk usage df utility</tags>
     <licenseUrl>https://github.com/ariya/phantomjs/blob/master/LICENSE.BSD</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl></iconUrl>
+    <iconUrl>https://github.com/piraces/chocolatey-packages/raw/main/icons/duf.png</iconUrl>
     <releaseNotes>https://github.com/muesli/duf/releases</releaseNotes>
   </metadata>
   <files>
