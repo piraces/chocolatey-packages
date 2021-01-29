@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>bicep</id>
+    <title>Bicep CLI</title>
+    <version>0.2.328</version>
+    <authors>Microsoft Azure</authors>
+    <owners>Microsoft Azure</owners>
+    <summary>Compiles bicep (DSL for deploying Azure resources declaratively) files into ARM templates</summary>
+    <description>
+Compiles bicep (DSL for deploying Azure resources declaratively) files into ARM templates. 
+Cross-platform.
+
+Bicep is created and owned by Microsoft Azure.
+    </description>
+    <projectUrl>https://github.com/Azure/bicep</projectUrl>
+    <packageSourceUrl>https://github.com/piraces/chocolatey-packages</packageSourceUrl>
+    <tags>bicep ARM azure DSL utility cli compiler</tags>
+    <licenseUrl>https://github.com/ariya/phantomjs/blob/master/LICENSE.BSD</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl></iconUrl>
+    <releaseNotes>https://github.com/Azure/bicep/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
