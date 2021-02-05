@@ -42,5 +42,5 @@ $options = [ordered]@{
     }
 }
 
-
+$global:au_Root = "$PSScriptRoot\automatic"
 $global:info = updateall -Name $Name -Options $Options
