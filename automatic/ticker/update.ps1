@@ -14,14 +14,14 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -Uri $releases
+    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
     # ticker-2.3.0-windows-386.tar.gz
     # ticker-2.3.0-windows-amd64.tar.gz
     $re  = "ticker-.+-windows-(386|amd64).tar.gz"
     $url = $download_page.links | ? href -match $re | select -First 2 -expand href
 
-    $version = $url[0] -split '-' | select -Last 1 -Skip 1
+    $version = $url[0] -split '-' | select -Last 1 -Skip 2
     $url32 = 'https://github.com' + $url[0]
     $url64 = 'https://github.com' + $url[1]
 

@@ -1,10 +1,10 @@
-$ErrorActionPreference = 'Stop'
+﻿$ErrorActionPreference = 'Stop'
 
 $packageName = 'ticker'
-$url32       = 'https://github.com/htacg/tidy-html5/releases/download/5.2.0/tidy-5.2.0-win32.zip'
-$url64       = 'https://github.com/htacg/tidy-html5/releases/download/5.2.0/tidy-5.2.0-win64.zip'
-$checksum32  = '94D653498B4F93B14F12A55CA06154E19C540C9B276E5D163F1CF84FA078F97A'
-$checksum64  = 'DD9FD814CC44BC2FFA9B9E547B1A6CBB42B6BE7B9358542D3EE7F6E10B676423'
+$url32       = 'https://github.com/achannarasappa/ticker/releases/download/v2.3.0/ticker-2.3.0-windows-386.tar.gz'
+$url64       = 'https://github.com/achannarasappa/ticker/releases/download/v2.3.0/ticker-2.3.0-windows-amd64.tar.gz'
+$checksum32  = '2850040270fd82dade7fcf0a267400c6ca2198861c015062acbdc94c1d318a29'
+$checksum64  = 'de80113eed2c1dfa08408e3920d50027df0eb5a13a4f08d9466ec836404eee8e'
 
 $toolsDir = (Split-Path -parent $MyInvocation.MyCommand.Definition)
 

@@ -28,3 +28,5 @@ update_info.xml
 Update-AUPackages.md
 .vs
 .idea
+*.tar.gz
+*.exe

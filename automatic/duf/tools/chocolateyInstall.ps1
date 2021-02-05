@@ -1,10 +1,10 @@
-$ErrorActionPreference = 'Stop'
+﻿$ErrorActionPreference = 'Stop'
 
 $packageName = 'duf'
-$url32       = 'https://github.com/htacg/tidy-html5/releases/download/5.2.0/tidy-5.2.0-win32.zip'
-$url64       = 'https://github.com/htacg/tidy-html5/releases/download/5.2.0/tidy-5.2.0-win64.zip'
-$checksum32  = '94D653498B4F93B14F12A55CA06154E19C540C9B276E5D163F1CF84FA078F97A'
-$checksum64  = 'DD9FD814CC44BC2FFA9B9E547B1A6CBB42B6BE7B9358542D3EE7F6E10B676423'
+$url32       = 'https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_Windows_i386.zip'
+$url64       = 'https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_Windows_x86_64.zip'
+$checksum32  = '068453afdb16c87ef6a0356020d7ae36bd593739b5a222ea5276543289d6ca0a'
+$checksum64  = '9cf11c16e62d4f37bc7272dc0f113695eb9783e1da3bcd4b162f53cce538b472'
 
 $packageArgs = @{
   packageName    = $packageName
