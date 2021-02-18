@@ -5,7 +5,7 @@
     <title>Ticker</title>
     <version>2.3.0</version>
     <authors>Ani Channarasappa, ticker Committers</authors>
-    <owners>Ani Channarasappa</owners>
+    <owners>Raúl Piracés (piraces)</owners>
     <summary>Ticker – Terminal stock watcher and stock position tracker</summary>
     <description>
 Terminal stock watcher and stock position tracker.
@@ -22,8 +22,11 @@ Ticker is created by Ani Channarasappa.
     <tags>terminal cli stock tracker market utility</tags>
     <licenseUrl>https://raw.githubusercontent.com/achannarasappa/ticker/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.githubusercontent.com/piraces/chocolatey-packages/main/icons/ticker.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/piraces/chocolatey-packages/1dc89f36316144f740f978df9b291395e73e600d/icons/ticker.png</iconUrl>
     <releaseNotes>https://github.com/achannarasappa/ticker/releases</releaseNotes>
+    <docsUrl>https://github.com/achannarasappa/ticker/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/achannarasappa/ticker/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/achannarasappa/ticker</projectSourceUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
