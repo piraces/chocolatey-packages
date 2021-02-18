@@ -9,10 +9,9 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName    = $packageName
   url            = $url
-  checksum       = $checksum64
+  checksum       = $checksum
   checksumType   = 'sha256'
   fileFullPath   = "$toolsDir\bicep.exe"
 }
 
 Get-ChocolateyWebFile @packageArgs
-Install-BinFile -Name $packageName -Path $packageArgs.fileFullPath
