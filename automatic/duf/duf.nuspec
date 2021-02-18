@@ -5,7 +5,7 @@
     <title>duf</title>
     <version>0.5.0</version>
     <authors>Christian Muehlhaeuser, duf Committers</authors>
-    <owners>Christian Muehlhaeuser</owners>
+    <owners>Raúl Piracés (piraces)</owners>
     <summary>duf – Disk Usage Free Utility</summary>
     <description>
 Disk Usage Free Utility (Linux, BSD, macOS and Windows).
@@ -15,10 +15,13 @@ duf is created by Christian Muehlhaeuser.
     <projectUrl>https://github.com/muesli/duf</projectUrl>
     <packageSourceUrl>https://github.com/piraces/chocolatey-packages</packageSourceUrl>
     <tags>duf disk usage df utility</tags>
-    <licenseUrl>https://github.com/ariya/phantomjs/blob/master/LICENSE.BSD</licenseUrl>
+    <licenseUrl>https://raw.githubusercontent.com/muesli/duf/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.githubusercontent.com/piraces/chocolatey-packages/main/icons/duf.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/piraces/chocolatey-packages/6d8ce25713cef1aa1effce8485ea9b044599ddc1/icons/duf.png</iconUrl>
     <releaseNotes>https://github.com/muesli/duf/releases</releaseNotes>
+    <docsUrl>https://github.com/muesli/duf/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/muesli/duf/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/muesli/duf</projectSourceUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
