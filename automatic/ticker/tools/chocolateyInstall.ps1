@@ -16,13 +16,11 @@ $packageArgs = @{
   checksum64     = $checksum64
   checksumType   = 'sha256'
   checksumType64 = 'sha256'
-  fileFullPath   = "$toolsDir\ticker.tar.gz"
+  unzipLocation   = "$toolsDir\ticker.tar"
 }
 
 
 
-Get-ChocolateyWebFile @packageArgs
-
-Get-ChocolateyUnzip -FileFullPath $packageArgs.fileFullPath -Destination $toolsDir
+Install-ChocolateyZipPackage @packageArgs
 
 Get-ChocolateyUnzip -FileFullPath "$toolsDir\ticker.tar" -Destination $toolsDir
