@@ -5,8 +5,8 @@ $releases = 'https://github.com/Azure/bicep/releases'
 function global:au_SearchReplace {
     @{
         "tools\VERIFICATION.txt" = @{
-            "(?i)(x64:).*"               = "`${1} $($Latest.URL64)"
-            "(?i)(checksum:).*"          = "`${1} $($Latest.Checksum64)"
+            "(?i)(x64:).*"                 = "`${1} $($Latest.URL64)"
+            "(?i)(checksum64:).*"          = "`${1} $($Latest.Checksum64)"
         }
      }
 }
