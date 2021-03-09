@@ -7,12 +7,12 @@ Package can be verified like this:
 
 1. Go to
 
-   x64: https://github.com/Azure/bicep/releases/download/v0.2.328/bicep-win-x64.exe
+   x64: https://github.com/Azure/bicep/releases/download/v0.3.1/bicep-win-x64.exe
 
    to download the executable.
 
-2. You can use one of the following methods to obtain the SHA256 checksum:
+2. You can use one of the following methods to obtain the SHA256 checksum: 
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum: 3E03D5840B1FC3EE2A131EC32940D377E20582166ED5D9A2F3F8A29ADF0F3892
+   checksum: 
