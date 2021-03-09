@@ -12,7 +12,7 @@ function global:au_SearchReplace {
 }
 
 function global:au_BeforeUpdate() {
-    Get-RemoteFiles -Purge
+    Get-RemoteFiles -Purge -NoSuffix -FileNameBase 'bicep'
 }
 
 function global:au_GetLatest {
