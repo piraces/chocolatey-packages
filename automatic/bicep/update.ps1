@@ -5,10 +5,14 @@ $releases = 'https://github.com/Azure/bicep/releases'
 function global:au_SearchReplace {
     @{
         "tools\VERIFICATION.txt" = @{
-            "(?i)(x64:).*"               = "`${1} $($Latest.URL)"
-            "(?i)(checksum:).*"          = "`${1} $($Latest.Checksum)"
+            "(?i)(x64:).*"               = "`${1} $($Latest.URL64)"
+            "(?i)(checksum:).*"          = "`${1} $($Latest.Checksum64)"
         }
      }
+}
+
+function global:au_BeforeUpdate() {
+    Get-RemoteFiles -Purge
 }
 
 function global:au_GetLatest {
@@ -22,7 +26,7 @@ function global:au_GetLatest {
     $version = $version.replace("v","")
     $url = 'https://github.com' + $url
 
-    $Latest = @{ URL = $url; Version = $version }
+    $Latest = @{ URL64 = $url; Version = $version }
     return $Latest
 }
 
