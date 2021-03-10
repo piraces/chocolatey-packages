@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName = 'ticker'
-$url32       = 'https://github.com/achannarasappa/ticker/releases/download/v4.0.2/ticker-4.0.2-windows-386.tar.gz'
-$url64       = 'https://github.com/achannarasappa/ticker/releases/download/v4.0.2/ticker-4.0.2-windows-amd64.tar.gz'
-$checksum32  = '5136d1aaa652bd4cf95d0e42b80606acc9c17a6484477aef6387cf3e49cdc00f'
-$checksum64  = 'e8135b8068b49cba7088f91b364fb8590734bf3c5498346a6c2019ff42f2c576'
+$url32       = 'https://github.com/achannarasappa/ticker/releases/download/v4.0.3/ticker-4.0.3-windows-386.tar.gz'
+$url64       = 'https://github.com/achannarasappa/ticker/releases/download/v4.0.3/ticker-4.0.3-windows-amd64.tar.gz'
+$checksum32  = '5290fa910d55101992d14b00550dd2bfa98c34bc21b1cb391d980e8513232dcf'
+$checksum64  = 'd411b37b5df0e4ddf430be2c311f6b93b6783e709fb1401ce8af0ec369911754'
 
 $toolsDir = (Split-Path -parent $MyInvocation.MyCommand.Definition)
 
