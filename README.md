@@ -11,6 +11,7 @@ This repository contains packages that are maintained by piraces (automatically 
 - [duf](https://github.com/muesli/duf): Disk Usage/Free Utility (Linux, BSD, macOS & Windows).
 - [Azure Bicep](https://github.com/Azure/bicep): Compiles bicep (DSL for deploying Azure resources declaratively) files into ARM templates. Cross-platform.
 - [Ticker](https://github.com/achannarasappa/ticker): Terminal stock watcher and stock position tracker.
+- [Bisq](https://bisq.network/): Decentralized bitcoin trading network: trade bitcoin for fiat or other cryptocurrencies. Private by default, secure by design, and free as in freedom.
 
 # Reports in gists
 
