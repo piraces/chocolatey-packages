@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>Bisq</id>
+    <title>Bisq</title>
+    <version>1.5.9</version>
+    <authors>Bisq Network, Bisq Committers</authors>
+    <owners>Raúl Piracés (piraces)</owners>
+    <summary>Bisq – Disk Usage Free Utility</summary>
+    <description>
+Decentralized bitcoin trading network: trade bitcoin for fiat or other cryptocurrencies. 
+Private by default, secure by design, and free as in freedom.
+
+Bisq is created by Bisq Network.
+    </description>
+    <projectUrl>https://bisq.network/</projectUrl>
+    <packageSourceUrl>https://github.com/piraces/chocolatey-packages</packageSourceUrl>
+    <tags>bisq bitcoin exchange p2p network</tags>
+    <licenseUrl>https://raw.githubusercontent.com/bisq-network/bisq/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.statically.io/gh/piraces/chocolatey-packages/main/icons/bisq.png</iconUrl>
+    <releaseNotes>https://github.com/bisq-network/bisq/releases</releaseNotes>
+    <docsUrl>https://docs.bisq.network/</docsUrl>
+    <bugTrackerUrl>https://github.com/bisq-network/bisq/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/bisq-network/bisq</projectSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+<!-- character encoding: “UTF-8” -->
