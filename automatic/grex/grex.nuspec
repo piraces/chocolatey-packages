@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>grex</id>
+    <title>grex</title>
+    <version>1.0.0</version>
+    <authors>Peter M. Stahl, grex Committers</authors>
+    <owners>Raúl Piracés (piraces)</owners>
+    <summary>grex – A command-line tool and library for generating regular expressions from user-provided test cases</summary>
+    <description>
+grex is a library as well as a command-line utility that is meant to simplify the often complicated and tedious task of creating regular expressions.
+It does so by automatically generating a single regular expression from user-provided test cases.
+The resulting expression is guaranteed to match the test cases which it was generated from.
+    </description>
+    <projectUrl>https://github.com/pemistahl/grex</projectUrl>
+    <packageSourceUrl>https://github.com/piraces/chocolatey-packages</packageSourceUrl>
+    <tags>cli regex regexp utility regular-expression</tags>
+    <licenseUrl>https://raw.githubusercontent.com/pemistahl/grex/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.statically.io/gh/piraces/chocolatey-packages/main/icons/grex.png</iconUrl>
+    <releaseNotes>https://github.com/pemistahl/grex/releases</releaseNotes>
+    <docsUrl>https://github.com/pemistahl/grex/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/pemistahl/grex/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/pemistahl/grex</projectSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+<!-- character encoding: “UTF-8” -->
