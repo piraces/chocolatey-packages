@@ -12,6 +12,7 @@ This repository contains packages that are maintained by piraces (automatically 
 - [Azure Bicep](https://github.com/Azure/bicep): Compiles bicep (DSL for deploying Azure resources declaratively) files into ARM templates. Cross-platform.
 - [Ticker](https://github.com/achannarasappa/ticker): Terminal stock watcher and stock position tracker.
 - [Bisq](https://bisq.network/): Decentralized bitcoin trading network: trade bitcoin for fiat or other cryptocurrencies. Private by default, secure by design, and free as in freedom.
+- [grex](https://github.com/pemistahl/grex): A command-line tool and library for generating regular expressions from user-provided test cases.
 
 # Reports in gists
 
