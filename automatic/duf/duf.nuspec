@@ -3,7 +3,7 @@
   <metadata>
     <id>duf</id>
     <title>duf</title>
-    <version>0.5.0</version>
+    <version>0.6.1</version>
     <authors>Christian Muehlhaeuser, duf Committers</authors>
     <owners>Raúl Piracés (piraces)</owners>
     <summary>duf – Disk Usage Free Utility</summary>
