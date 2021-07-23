@@ -2,8 +2,8 @@
 
 $packageName = 'bisq'
 $fileType    = 'exe'
-$url64       = 'https://github.com/bisq-network/bisq/releases/download/v1.7.1/Bisq-64bit-1.7.1.exe'
-$checksum64  = 'dc2a2df81a6e5cb6eb62de9c619e07747bfe0c7b6060fcaf34e44f194bd152f6'
+$url64       = 'https://github.com/bisq-network/bisq/releases/download/v1.7.2/Bisq-64bit-1.7.2.exe'
+$checksum64  = '8b2b14fac78b9bcb2dedb6f8177914ec26b295bc68989eff93c792ac80729254'
 $silentArgs  = '/quiet'
 $checksumType64 = 'sha256'
 $validExitCodes = @(0, 3010, 1641)
