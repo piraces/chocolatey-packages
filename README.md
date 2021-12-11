@@ -13,6 +13,7 @@ This repository contains packages that are maintained by piraces (automatically 
 - [Ticker](https://github.com/achannarasappa/ticker): Terminal stock watcher and stock position tracker.
 - [Bisq](https://bisq.network/): Decentralized bitcoin trading network: trade bitcoin for fiat or other cryptocurrencies. Private by default, secure by design, and free as in freedom.
 - [grex](https://github.com/pemistahl/grex): A command-line tool and library for generating regular expressions from user-provided test cases.
+- [dive](https://github.com/wagoodman/dive): A tool for exploring a docker image, layer contents, and discovering ways to shrink the size of your Docker/OCI image.
 
 # Reports in gists
 
