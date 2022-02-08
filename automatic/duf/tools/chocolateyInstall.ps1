@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName = 'duf'
-$url32       = 'https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_Windows_i386.zip'
-$url64       = 'https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_Windows_x86_64.zip'
-$checksum32  = '856a05a232ba1510231a386f3131a36686084fdc12bb66b9d955c05bcd8779e0'
-$checksum64  = '883a9012b24cf21db5a27e76ba5ba179263d469d8b4e9e018447790a9fd0a4ff'
+$url32       = 'https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_Windows_i386.zip'
+$url64       = 'https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_Windows_x86_64.zip'
+$checksum32  = '1d8829b7f93dfe532bf29015b8826d6d384d6f25c751e9118a12b9ff63ae881a'
+$checksum64  = '61cb50b541b30b6b66f20453d8795e6395454224e1609fa8454682fcf8931926'
 
 $packageArgs = @{
   packageName    = $packageName
