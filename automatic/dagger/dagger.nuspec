@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>dagger</id>
+    <title>Dagger</title>
+    <version>0.2.4</version>
+    <authors>Dagger, Dagger  Committers</authors>
+    <owners>Raúl Piracés (piraces)</owners>
+    <summary>Dagger is a portable devkit for CICD</summary>
+    <description>
+Dagger is a portable devkit for CICD.
+
+Using Dagger, software teams can develop powerful CICD pipelines with minimal effort, then run them anywhere.
+    </description>
+    <projectUrl>https://dagger.io/</projectUrl>
+    <packageSourceUrl>https://github.com/piraces/chocolatey-packages</packageSourceUrl>
+    <tags>duf disk usage df utility</tags>
+    <licenseUrl>https://raw.githubusercontent.com/dagger/dagger/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://rawcdn.githack.com/piraces/chocolatey-packages/8cd885e299bf891e8f6b982ceeb3efc51b2df61d/icons/dagger.png</iconUrl>
+    <releaseNotes>https://github.com/dagger/dagger/releases</releaseNotes>
+    <docsUrl>https://docs.dagger.io/</docsUrl>
+    <bugTrackerUrl>https://github.com/dagger/dagger/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/dagger/dagger</projectSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+<!-- character encoding: “UTF-8” -->
