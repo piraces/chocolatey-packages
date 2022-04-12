@@ -8,9 +8,9 @@ $toolsDir = (Split-Path -parent $MyInvocation.MyCommand.Definition)
 
 $packageArgs = @{
   packageName    = $packageName
-  url            = $url64
-  checksum       = $checksum64
-  checksumType   = 'sha256'
+  url64          = $url64
+  checksum64     = $checksum64
+  checksumType64 = 'sha256'
   unzipLocation   = "$toolsDir\trufflehog.tar"
 }
 

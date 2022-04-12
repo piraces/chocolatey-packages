@@ -6,9 +6,9 @@ $checksum64  = '872abeb12125f45e59969b208716a95371ff48a2dd39508c39731bd5f5ab8306
 
 $packageArgs = @{
   packageName    = $packageName
-  url            = $url64
-  checksum       = $checksum64
-  checksumType   = 'sha256'
+  url64          = $url64
+  checksum64     = $checksum64
+  checksumType64 = 'sha256'
   unzipLocation  = Split-Path $MyInvocation.MyCommand.Definition
 }
 Install-ChocolateyZipPackage @packageArgs

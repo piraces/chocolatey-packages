@@ -11,6 +11,10 @@ function global:au_SearchReplace {
      }
 }
 
+function global:au_BeforeUpdate {
+    $Latest.Checksum64 = Get-RemoteChecksum $Latest.URL64
+}
+
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases  -UseBasicParsing
 
@@ -26,4 +30,4 @@ function global:au_GetLatest {
     return $Latest
 }
 
-update
+update -ChecksumFor none
