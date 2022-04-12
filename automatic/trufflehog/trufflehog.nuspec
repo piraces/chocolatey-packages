@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>trufflehog</id>
+    <title>TruffleHog</title>
+    <version>3.2.3</version>
+    <authors>Truffle Security, TruffleHog Committers</authors>
+    <owners>Raúl Piracés (piraces)</owners>
+    <summary>TruffleHog – Find leaked credentials</summary>
+    <description>
+Tool to find leaked credentials.
+
+- Over 600 credential detectors that support active verification against their respective APIs.
+- Native support for scanning GitHub, GitLab, filesystems, and S3.
+    </description>
+    <projectUrl>https://github.com/trufflesecurity/trufflehog</projectUrl>
+    <packageSourceUrl>https://github.com/piraces/chocolatey-packages</packageSourceUrl>
+    <tags>terminal cli credentials leaked security utility</tags>
+    <licenseUrl>https://raw.githubusercontent.com/trufflesecurity/trufflehog/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://rawcdn.githack.com/piraces/chocolatey-packages/3a5b4d63fd23333ae273b08cf3377d80b14e0cf7/icons/trufflehog.png</iconUrl>
+    <releaseNotes>https://github.com/trufflesecurity/trufflehog/releases</releaseNotes>
+    <docsUrl>https://github.com/trufflesecurity/trufflehog/blob/main/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/trufflesecurity/trufflehog/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/trufflesecurity/trufflehog</projectSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+<!-- character encoding: “UTF-8” -->
