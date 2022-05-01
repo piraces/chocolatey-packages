@@ -1,5 +1,5 @@
 # Chocolatey Packages (piraces)
-[![Build status](https://ci.appveyor.com/api/projects/status/m7a34nbp1de95rlb?svg=true)](https://ci.appveyor.com/project/piraces/chocolatey-packages)
+[![CI](https://github.com/piraces/chocolatey-packages/actions/workflows/main.yml/badge.svg)](https://github.com/piraces/chocolatey-packages/actions/workflows/main.yml)
 
 
 This repository contains packages that are maintained by piraces (automatically and manually).
