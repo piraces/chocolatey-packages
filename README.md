@@ -15,6 +15,7 @@ This repository contains packages that are maintained by piraces (automatically 
 - [grex](https://github.com/pemistahl/grex): A command-line tool and library for generating regular expressions from user-provided test cases.
 - [Dagger](https://dagger.io/): a portable devkit for CI/CD pipelines.
 - [TruffleHog](https://github.com/trufflesecurity/trufflehog): utility to find leaked credentials.
+- [CUE](https://github.com/cue-lang/cue): CUE is an open source data constraint language which aims to simplify tasks involving defining and using data.
 
 # Reports in gists
 

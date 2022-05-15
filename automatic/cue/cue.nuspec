@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>cue</id>
+    <title>CUE</title>
+    <version>0.4.2</version>
+    <authors>CUE language organization, cue Committers</authors>
+    <owners>Raúl Piracés (piraces)</owners>
+    <summary>cue – CLI utility for CUE Data Constraint Language</summary>
+    <description>
+Configure, Unify, Execute.
+CUE is an open source data constraint language which aims to simplify tasks involving defining and using data.
+
+CUE is created by CUE language organization.
+    </description>
+    <projectUrl>https://cuelang.org</projectUrl>
+    <packageSourceUrl>https://github.com/piraces/chocolatey-packages</packageSourceUrl>
+    <tags>duf disk usage df utility</tags>
+    <licenseUrl>https://raw.githubusercontent.com/cue-lang/cue/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://rawcdn.githack.com/piraces/chocolatey-packages/1438627430a6fe306cdf38ed0db436e4a924a468/icons/cue.png</iconUrl>
+    <releaseNotes>https://github.com/cue-lang/cue/releases</releaseNotes>
+    <docsUrl>https://cuelang.org/docs/</docsUrl>
+    <bugTrackerUrl>https://github.com/cue-lang/cue/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/cue-lang/cue</projectSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+<!-- character encoding: “UTF-8” -->
