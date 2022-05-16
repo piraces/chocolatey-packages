@@ -6,7 +6,7 @@
     <version>0.3.0</version>
     <authors>Microsoft Azure</authors>
     <owners>Raúl Piracés (piraces)</owners>
-    <summary>Azure Terrafy – A tool to bring your existing Azure resources under the management of Terraform.</summary>
+    <summary>Azure Terrafy – A tool to bring your existing Azure resources under the management of Terraform</summary>
     <description>
 A tool to bring your existing Azure resources under the management of Terraform.
 

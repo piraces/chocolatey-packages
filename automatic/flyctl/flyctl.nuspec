@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>flyctl</id>
+    <title>flyctl</title>
+    <version>0.0.325</version>
+    <authors>Fly.io</authors>
+    <owners>Raúl Piracés (piraces)</owners>
+    <summary>flyctl – flyctl is a command-line interface for fly.io</summary>
+    <description>
+flyctl is a command-line interface for fly.io
+
+flyctl is created by Fly.io.
+    </description>
+    <projectUrl>https://fly.io/</projectUrl>
+    <packageSourceUrl>https://github.com/piraces/chocolatey-packages</packageSourceUrl>
+    <tags>cdn edge computing javascript serverless</tags>
+    <licenseUrl>https://raw.githubusercontent.com/superfly/flyctl/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://rawcdn.githack.com/piraces/chocolatey-packages/ff7c0575aebd136b9b69866e061d6bbff6b54f58/icons/flyctl.png</iconUrl>
+    <releaseNotes>https://github.com/superfly/flyctl/releases</releaseNotes>
+    <docsUrl>https://fly.io/docs/</docsUrl>
+    <bugTrackerUrl>https://github.com/superfly/flyctl/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/superfly/flyctl</projectSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+<!-- character encoding: “UTF-8” -->
