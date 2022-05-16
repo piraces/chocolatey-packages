@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>aztfy</id>
+    <title>Azure Terrafy</title>
+    <version>0.2.0</version>
+    <authors>Microsoft Azure</authors>
+    <owners>Raúl Piracés (piraces)</owners>
+    <summary>Azure Terrafy – A tool to bring your existing Azure resources under the management of Terraform.</summary>
+    <description>
+A tool to bring your existing Azure resources under the management of Terraform.
+
+Azure Terrafy imports the resources that are supported by the Terraform AzureRM provider within a resource group, into the Terraform state, and generates the corresponding Terraform configuration.
+
+Azure Terrafy is created by Microsoft Azure.
+    </description>
+    <projectUrl>https://azure.github.io/aztfy</projectUrl>
+    <packageSourceUrl>https://github.com/piraces/chocolatey-packages</packageSourceUrl>
+    <tags>devops tool azure terraform iac</tags>
+    <licenseUrl>https://raw.githubusercontent.com/Azure/aztfy/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/Azure/aztfy/releases</releaseNotes>
+    <docsUrl>https://github.com/Azure/aztfy/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/Azure/aztfy/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/Azure/aztfy</projectSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+<!-- character encoding: “UTF-8” -->

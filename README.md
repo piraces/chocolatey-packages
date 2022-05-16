@@ -16,6 +16,7 @@ This repository contains packages that are maintained by piraces (automatically 
 - [Dagger](https://dagger.io/): a portable devkit for CI/CD pipelines.
 - [TruffleHog](https://github.com/trufflesecurity/trufflehog): utility to find leaked credentials.
 - [CUE](https://github.com/cue-lang/cue): CUE is an open source data constraint language which aims to simplify tasks involving defining and using data.
+- [Azure Terrafy](https://github.com/Azure/aztfy): A tool to bring your existing Azure resources under the management of Terraform.
 
 # Reports in gists
 
