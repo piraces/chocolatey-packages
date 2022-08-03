@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName = 'flyctl'
-$url64       = 'https://github.com/superfly/flyctl/releases/download/v0.0.364-pre-6/flyctl_0.0.364-pre-6_Windows_x86_64.zip'
-$checksum64  = '92cec7a16248573c466f0211b67c989c030cbf50867bcf1f28a6abbeba138814'
+$url64       = 'https://github.com/superfly/flyctl/releases/download/v0.0.364-pre-7/flyctl_0.0.364-pre-7_Windows_x86_64.zip'
+$checksum64  = '2db02e0b1ca8c87bd9556057f4bef17872e7a4db31d9fc2b1d9d15e411213a8f'
 
 $packageArgs = @{
   packageName    = $packageName
