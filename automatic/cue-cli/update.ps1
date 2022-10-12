@@ -1,6 +1,7 @@
 import-module au
 
-$releases = 'https://github.com/cue-lang/cue/releases'
+$releases_latest = 'https://github.com/cue-lang/cue/releases/latest'
+$releases = 'https://github.com/cue-lang/cue/releases/'
 
 function global:au_SearchReplace {
     @{
@@ -16,10 +17,18 @@ function global:au_BeforeUpdate {
 }
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -Uri $releases  -UseBasicParsing
+    $releases_page = Invoke-WebRequest -Uri $releases_latest -UseBasicParsing
 
     # cue_v0.4.3_windows_amd64.zip
+    $re_version = "/cue-lang/cue/tree/v.+"
     $re  = "cue_.+_windows_amd64.zip"
+
+    $latest_version = $releases_page.Links | ? href -match $re_version | select -First 1 -expand href
+
+    $latest_version = $latest_version -split '/' | select -First 1 -Skip 4
+
+    $download_page = Invoke-WebRequest -Uri "$($releases)expanded_assets/$($latest_version)" -UseBasicParsing
+
     $url = $download_page.links | ? href -match $re | select -First 1 -expand href
 
     $version = $url -split '_' | select -First 1 -Skip 1
