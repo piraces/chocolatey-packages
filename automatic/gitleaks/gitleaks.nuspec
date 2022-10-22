@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>gitleaks</id>
+    <title>Gitleaks</title>
+    <version>8.14.1</version>
+    <authors>Zachary Rice, Gitleaks LLC, Gitleaks Committers</authors>
+    <owners>Raúl Piracés (piraces)</owners>
+    <summary>Gitleaks – Open-source secret scanner for git repositories, files, and directories</summary>
+    <description>
+Gitleaks is a fast, light-weight, portable, and open-source secret scanner for git repositories, files, and directories.
+With over 6.3 million docker downloads, 10.9k GitHub stars, and over 400k homebrew installs, gitleaks is the most trusted secret scanner among security professionals, enterprises, and developers.
+    </description>
+    <projectUrl>https://gitleaks.io</projectUrl>
+    <packageSourceUrl>https://github.com/piraces/chocolatey-packages</packageSourceUrl>
+    <tags>gitleaks secret scanner git leaks</tags>
+    <licenseUrl>https://raw.githubusercontent.com/zricethezav/gitleaks/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://rawcdn.githack.com/piraces/chocolatey-packages/44f20c96868561da2779905421fdbfe4f53e989b/icons/gitleaks.png</iconUrl>
+    <releaseNotes>https://github.com/zricethezav/gitleaks/releases</releaseNotes>
+    <docsUrl>https://github.com/zricethezav/gitleaks/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/zricethezav/gitleaks/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/zricethezav/gitleaks</projectSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+<!-- character encoding: “UTF-8” -->
