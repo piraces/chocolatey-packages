@@ -3,7 +3,7 @@
   <metadata>
     <id>dagger-cue</id>
     <title>Dagger CUE SDK</title>
-    <version>0.2.231</version>
+    <version>0.2.232</version>
     <authors>Dagger, Dagger  Committers</authors>
     <owners>Raúl Piracés (piraces)</owners>
     <summary> Dagger CUE SDK contains everything you need to develop CI/CD pipelines using the CUE configuration language, and run them on any OCI-compatible container runtime.</summary>
