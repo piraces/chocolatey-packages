@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>dagger-cue</id>
+    <title>Dagger CUE SDK</title>
+    <version>0.2.231</version>
+    <authors>Dagger, Dagger  Committers</authors>
+    <owners>Raúl Piracés (piraces)</owners>
+    <summary> Dagger CUE SDK contains everything you need to develop CI/CD pipelines using the CUE configuration language, and run them on any OCI-compatible container runtime.</summary>
+    <description>
+The Dagger CUE SDK contains everything you need to develop CI/CD pipelines using the CUE configuration language, and run them on any OCI-compatible container runtime.
+
+Using the Dagger CUE SDK and execute on a Dagger Engine by using the dagger-cue CLI. You can connect to an existing Dagger Engine, or the dagger-cue CLI will provision one on-the-fly.
+    </description>
+    <projectUrl>https://dagger.io/</projectUrl>
+    <packageSourceUrl>https://github.com/piraces/chocolatey-packages</packageSourceUrl>
+    <tags>dagger ci cd dagger-cue sdk</tags>
+    <licenseUrl>https://raw.githubusercontent.com/dagger/dagger/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://rawcdn.githack.com/piraces/chocolatey-packages/8cd885e299bf891e8f6b982ceeb3efc51b2df61d/icons/dagger.png</iconUrl>
+    <releaseNotes>https://github.com/dagger/dagger/releases</releaseNotes>
+    <docsUrl>https://docs.dagger.io/sdk/cue</docsUrl>
+    <bugTrackerUrl>https://github.com/dagger/dagger/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/dagger/dagger</projectSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+<!-- character encoding: “UTF-8” -->
