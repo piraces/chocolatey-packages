@@ -20,6 +20,7 @@ This repository contains packages that are maintained by piraces (automatically 
 - [Azure Terrafy](https://github.com/Azure/aztfy): A tool to bring your existing Azure resources under the management of Terraform.
 - [flyctl](https://github.com/superfly/flyctl): flyctl is a command-line interface for [fly.io](https://fly.io/).
 - [Gitleaks](https://gitleaks.io/): a fast, light-weight, portable, and open-source secret scanner for git repositories, files, and directories.
+- [OSV-Scanner](https://github.com/google/osv-scanner): vulnerability scanner written in Go which uses the data provided by https://osv.dev.
 
 # Reports in gists
 
