@@ -21,6 +21,7 @@ This repository contains packages that are maintained by piraces (automatically 
 - [flyctl](https://github.com/superfly/flyctl): flyctl is a command-line interface for [fly.io](https://fly.io/).
 - [Gitleaks](https://gitleaks.io/): a fast, light-weight, portable, and open-source secret scanner for git repositories, files, and directories.
 - [OSV-Scanner](https://github.com/google/osv-scanner): vulnerability scanner written in Go which uses the data provided by https://osv.dev.
+- [GoReleaser](https://goreleaser.com/): utility to deliver Go binaries as fast and easily as possible.
 
 # Reports in gists
 

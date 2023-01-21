@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>goreleaser</id>
+    <title>GoReleaser</title>
+    <version>1.14.0</version>
+    <authors>Carlos Alexandro Becker, GoReleaser Committers</authors>
+    <owners>Raúl Piracés (piraces)</owners>
+    <summary>GoReleaser – Deliver Go binaries as fast and easily as possible</summary>
+    <description>
+GoReleaser builds Go binaries for several platforms, creates a GitHub release and then pushes a Homebrew formula to a tap repository. All that wrapped in your favorite CI.
+With GoReleaser, you can:
+
+- Cross-compile your Go project
+- Release to GitHub, GitLab and Gitea
+- Create nightly builds
+- Create Docker images and manifests
+- Create Linux packages and Homebrew taps
+- Sign artifacts, checksums and container images
+- Announce new releases on Twitter, Slack, Discord and others
+- Generate SBOMs (Software Bill of Materials) for binaries and container images
+- ... and much more!
+
+GoReleaser is created by Carlos Alexandro Becker.
+    </description>
+    <projectUrl>https://goreleaser.com/</projectUrl>
+    <packageSourceUrl>https://github.com/piraces/chocolatey-packages</packageSourceUrl>
+    <tags>golang go ci build release utility</tags>
+    <licenseUrl>https://raw.githubusercontent.com/goreleaser/goreleaser/main/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://rawcdn.githack.com/piraces/chocolatey-packages/5eee307f253d4fbda807f970bfc97bafca65911a/icons/goreleaser.png</iconUrl>
+    <releaseNotes>https://github.com/goreleaser/goreleaser/releases</releaseNotes>
+    <docsUrl>https://goreleaser.com/intro/</docsUrl>
+    <bugTrackerUrl>https://github.com/goreleaser/goreleaser/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/goreleaser/goreleaser/</projectSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+<!-- character encoding: “UTF-8” -->
