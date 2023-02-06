@@ -1,45 +1,34 @@
 import-module au
 
-# $releases_latest = 'https://github.com/dagger/dagger/releases/latest'
-# $releases = 'https://github.com/dagger/dagger/releases/'
+$name = "dagger"
+$base = "https://dagger-io.s3.amazonaws.com"
 
-# function global:au_SearchReplace {
-#     @{
-#         'tools\chocolateyInstall.ps1' = @{
-#             "(^[$]url64\s*=\s*)('.*')"      = "`$1'$($Latest.URL64)'"
-#             "(^[$]checksum64\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64)'"
-#         }
-#      }
-# }
+function global:au_SearchReplace {
+    @{
+        'tools\chocolateyInstall.ps1' = @{
+            "(^[$]url64\s*=\s*)('.*')"      = "`$1'$($Latest.URL64)'"
+            "(^[$]checksum64\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64)'"
+        }
+     }
+}
 
-# function global:au_BeforeUpdate {
-#     $Latest.Checksum64 = Get-RemoteChecksum $Latest.URL64
-# }
+function global:au_BeforeUpdate {
+    $Latest.Checksum64 = Get-RemoteChecksum $Latest.URL64
+}
 
 function global:au_GetLatest {
-    # $releases_page = Invoke-WebRequest -Uri $releases_latest -UseBasicParsing
+    $version = Invoke-RestMethod 'http://releases.dagger.io/dagger/latest_version' -Method 'GET' -Body $body
+    # $version = 0.2.232
 
-    # # dagger_v0.2.5_windows_amd64.zip
-    # $re_version = "/dagger/dagger/tree/v.+"
-    # $re  = "dagger_.+_windows_amd64.zip"
+    $version = $version -replace '[""]'
+    $version = $version -replace '\n'
+    $fileName = $name + "_v" + $version + "_windows_amd64"
+    # $fileName = dagger_v0.3.10_windows_amd64
 
-    # $latest_version = $releases_page.Links | ? href -match $re_version | select -First 1 -expand href
-
-    # $latest_version = $latest_version -split '/' | select -First 1 -Skip 4
-
-    # $download_page = Invoke-WebRequest -Uri "$($releases)expanded_assets/$($latest_version)" -UseBasicParsing
-
-    # $url = $download_page.links | ? href -match $re | select -First 1 -expand href
-
-    # $version = $url -split '_' | select -First 1 -Skip 1
-    # $version = $version.replace("v","")
-    # $url64 = 'https://github.com' + $url
-
-    $url64       = 'https://github.com/dagger/dagger/releases/download/v0.2.36/dagger_v0.2.36_windows_amd64.zip'
-    $version     = '0.2.36'
+    $url64 = $base + "/" + $name + "/releases/" + $version + "/" + $fileName + ".zip"
 
     $Latest = @{ URL64 = $url64; Version = $version }
     return $Latest
 }
 
-update -ChecksumFor none # Disabled due to deprecation in favor of dagger-cue: https://github.com/dagger/dagger/issues/3474
+update -ChecksumFor none
