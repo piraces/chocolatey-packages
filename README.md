@@ -22,6 +22,7 @@ This repository contains packages that are maintained by piraces (automatically 
 - [Gitleaks](https://gitleaks.io/): a fast, light-weight, portable, and open-source secret scanner for git repositories, files, and directories.
 - [OSV-Scanner](https://github.com/google/osv-scanner): vulnerability scanner written in Go which uses the data provided by https://osv.dev.
 - [GoReleaser](https://goreleaser.com/): utility to deliver Go binaries as fast and easily as possible.
+- [xc](https://xcfile.dev/): simple, Convenient, Markdown based task runner.
 
 # Reports in gists
 
