@@ -7,8 +7,8 @@ Package can be verified like this:
 
 1. Go to
 
-   x86: 
-   x64: 
+   x86: https://github.com/joerdav/xc/releases/download/v0.0.159/xc_0.0.159_windows_386.exe
+   x64: https://github.com/joerdav/xc/releases/download/v0.0.159/xc_0.0.159_windows_amd64.exe
 
    to download the executable.
 
@@ -16,5 +16,5 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum32: 
-   checksum64: 
+   checksum32: 64A96AF5AD2CA3C2F134BAC9891A16FE03AE7892F9F9ED8B330AB592BAE88AB2
+   checksum64: D819D9F75615412DEF6173B14A38E1BD0B5085EA1AC4C88BB975472066475A38
