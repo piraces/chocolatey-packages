@@ -3,7 +3,7 @@
   <metadata>
     <id>trufflehog</id>
     <title>TruffleHog</title>
-    <version>3.28.0</version>
+    <version>3.28.2</version>
     <authors>Truffle Security, TruffleHog Committers</authors>
     <owners>Raúl Piracés (piraces)</owners>
     <summary>TruffleHog – Find leaked credentials</summary>
