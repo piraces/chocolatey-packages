@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName = 'aztfy'
-$url32       = 'https://github.com/Azure/aztfy/releases/download/v0.9.0/aztfy_v0.9.0_windows_386.zip'
-$url64       = 'https://github.com/Azure/aztfy/releases/download/v0.9.0/aztfy_v0.9.0_windows_amd64.zip'
-$checksum32  = 'b40ab2510a355d5b8223f778dae857694a6c7e762f2daddc7b95010ef9cf9614'
-$checksum64  = 'b67f542b61bd4dcf10a4b07867db7cec9f890b7f32e8a4a5ceaa9cc3efc09160'
+$url32       = 'https://github.com/Azure/aztfy/releases/download/v0.10.0/aztfy_v0.10.0_windows_386.zip'
+$url64       = 'https://github.com/Azure/aztfy/releases/download/v0.10.0/aztfy_v0.10.0_windows_amd64.zip'
+$checksum32  = '2b870fce4c8fc9dc24b6389415d62f8b47f013249348c7c0ddfd3c59921c0a28'
+$checksum64  = '8b945002741df3ff1a6e4be89fc13f77127484df186b985f8b95df1b4301978f'
 
 $packageArgs = @{
   packageName    = $packageName
