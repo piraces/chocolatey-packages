@@ -3,7 +3,7 @@
   <metadata>
     <id>bicep</id>
     <title>Bicep CLI</title>
-    <version>0.14.85</version>
+    <version>0.15.31</version>
     <authors>Microsoft Azure</authors>
     <owners>Raúl Piracés (piraces)</owners>
     <summary>Compiles bicep (DSL for deploying Azure resources declaratively) files into ARM templates</summary>
