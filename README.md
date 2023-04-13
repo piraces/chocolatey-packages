@@ -23,6 +23,7 @@ This repository contains packages that are maintained by piraces (automatically 
 - [OSV-Scanner](https://github.com/google/osv-scanner): vulnerability scanner written in Go which uses the data provided by https://osv.dev.
 - [GoReleaser](https://goreleaser.com/): utility to deliver Go binaries as fast and easily as possible.
 - [xc](https://xcfile.dev/): simple, Convenient, Markdown based task runner.
+- [CloudQuery](https://www.cloudquery.io/): an open source high performance data integration platform built for developers.
 
 # Reports in gists
 
