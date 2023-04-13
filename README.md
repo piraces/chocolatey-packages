@@ -13,17 +13,20 @@ This repository contains packages that are maintained by piraces (automatically 
 - [Ticker](https://github.com/achannarasappa/ticker): Terminal stock watcher and stock position tracker.
 - [Bisq](https://bisq.network/): Decentralized bitcoin trading network: trade bitcoin for fiat or other cryptocurrencies. Private by default, secure by design, and free as in freedom.
 - [grex](https://github.com/pemistahl/grex): A command-line tool and library for generating regular expressions from user-provided test cases.
-- [Dagger (legacy)](https://dagger.io/): a portable devkit for CI/CD pipelines. **Note**: `dagger-cue` is the successor of `dagger` which is the replacement of the original dagger 0.2 engine and tool, aka "dagger classic".
+- [Dagger](https://dagger.io/): a portable devkit for CI/CD pipelines (aka "dagger classic").
 - [Dagger CUE SDK](https://docs.dagger.io/sdk/cue): everything you need to develop CI/CD pipelines using the CUE configuration language, and run them on any OCI-compatible container runtime.
 - [TruffleHog](https://github.com/trufflesecurity/trufflehog): utility to find leaked credentials.
 - [CUE](https://github.com/cue-lang/cue): CUE is an open source data constraint language which aims to simplify tasks involving defining and using data.
-- [Azure Terrafy](https://github.com/Azure/aztfy): A tool to bring your existing Azure resources under the management of Terraform.
+- [Microsoft Azure Export for Terraform](https://github.com/Azure/aztfexport): A tool to bring your existing Azure resources under the management of Terraform.
 - [flyctl](https://github.com/superfly/flyctl): flyctl is a command-line interface for [fly.io](https://fly.io/).
 - [Gitleaks](https://gitleaks.io/): a fast, light-weight, portable, and open-source secret scanner for git repositories, files, and directories.
 - [OSV-Scanner](https://github.com/google/osv-scanner): vulnerability scanner written in Go which uses the data provided by https://osv.dev.
 - [GoReleaser](https://goreleaser.com/): utility to deliver Go binaries as fast and easily as possible.
 - [xc](https://xcfile.dev/): simple, Convenient, Markdown based task runner.
-- [CloudQuery](https://www.cloudquery.io/): an open source high performance data integration platform built for developers.
+
+# Deprecated / Changed packages
+
+- **Aztfy**: the project changed to 'aztfexport' with the name 'Microsoft Azure Export for Terraform'. This package is now unlisted in Chocolatey and a new 'aztfexport' is provided.
 
 # Reports in gists
 
