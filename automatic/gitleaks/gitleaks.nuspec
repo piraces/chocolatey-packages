@@ -3,7 +3,7 @@
   <metadata>
     <id>gitleaks</id>
     <title>Gitleaks</title>
-    <version>8.16.2</version>
+    <version>8.16.3</version>
     <authors>Zachary Rice, Gitleaks LLC, Gitleaks Committers</authors>
     <owners>Raúl Piracés (piraces)</owners>
     <summary>Gitleaks – Open-source secret scanner for git repositories, files, and directories</summary>
