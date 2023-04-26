@@ -55,7 +55,7 @@ jobs:
           au_push: true
         run: |
           [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
-          choco upgrade chocolatey --version 2.0.0-beta-20230412
+          choco upgrade chocolatey --version 2.0.0-beta-20230426
           $context = $ENV:github_context | ConvertFrom-JSON
           choco apikey --key $ENV:choco_api_key --source https://push.chocolatey.org/
           $ErrorActionPreference = 'Continue'
