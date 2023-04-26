@@ -24,6 +24,7 @@ This repository contains packages that are maintained by piraces (automatically 
 - [GoReleaser](https://goreleaser.com/): utility to deliver Go binaries as fast and easily as possible.
 - [xc](https://xcfile.dev/): simple, Convenient, Markdown based task runner.
 - [CloudQuery](https://www.cloudquery.io/): an open source high performance data integration platform built for developers.
+- [Wayback](https://docs.wabarc.eu.org/): an archiving tool with an IM-style interface, integrated with various archival services including Internet Archive, archive.today, IPFS, Telegraph, and file systems.
 
 # Deprecated / Changed packages
 

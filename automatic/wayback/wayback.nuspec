@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>wayback</id>
+    <title>Wayback</title>
+    <version>0.18.1</version>
+    <authors>Wayback Archiver team, Wayback Committers</authors>
+    <owners>Raúl Piracés (piraces)</owners>
+    <summary>Wayback – An archiving tool with an IM-style interface, integrated with various archival services</summary>
+    <description>
+Wayback is an archiving tool with an IM-style interface, integrated with various archival services including Internet Archive, archive.today, IPFS, Telegraph, and file systems:
+
+- Free and open-source
+- Cross-platform compatibility
+- Batch wayback URLs for faster archiving
+- Built-in CLI (wayback) for convenient use
+- Serve as a Tor Hidden Service or local web entry for added privacy and accessibility
+- Easier wayback to Internet Archive, archive.today, IPFS and Telegraph integration
+- Interactive with IRC, Matrix, Telegram bot, Discord bot, Mastodon, and Twitter as a daemon service for convenient use
+- Supports publishing wayback results to Telegram channel, Mastodon, and GitHub Issues for sharing
+- Supports storing archived files to disk for offline use
+- Download streaming media (requires FFmpeg) for convenient media archiving.
+
+Wayback is created by the Wayback Archiver team.
+    </description>
+    <projectUrl>https://docs.wabarc.eu.org/</projectUrl>
+    <packageSourceUrl>https://github.com/piraces/chocolatey-packages</packageSourceUrl>
+    <tags>archive snapshot wayback-machine har screenshot utility</tags>
+    <licenseUrl>https://raw.githubusercontent.com/wabarc/wayback/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://rawcdn.githack.com/piraces/chocolatey-packages/3fe18f5d5834860c3481cf251ab36e1b82ddbf26/icons/wayback.png</iconUrl>
+    <releaseNotes>https://github.com/wabarc/wayback/releases</releaseNotes>
+    <docsUrl>https://docs.wabarc.eu.org/</docsUrl>
+    <bugTrackerUrl>https://github.com/wabarc/wayback/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/wabarc/wayback</projectSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+<!-- character encoding: “UTF-8” -->
