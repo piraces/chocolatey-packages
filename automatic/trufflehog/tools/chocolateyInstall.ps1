@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName = 'trufflehog'
-$url64       = 'https://github.com/trufflesecurity/trufflehog/releases/download/v3.37.0/trufflehog_3.37.0_windows_amd64.tar.gz'
-$checksum64  = '5fada3d0b4081ece53986a66479b9d544ad60d3ea09f60e13c02d6443c2dc3a9'
+$url64       = 'https://github.com/trufflesecurity/trufflehog/releases/download/v3.38.0/trufflehog_3.38.0_windows_amd64.tar.gz'
+$checksum64  = '10d66a675384d52f07a1765b957a00a1ae25ed0a5cf278977b059343ef939357'
 
 $toolsDir = (Split-Path -parent $MyInvocation.MyCommand.Definition)
 
