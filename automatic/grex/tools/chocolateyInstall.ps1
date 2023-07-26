@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName = 'grex'
-$url32       = 'https://github.com/pemistahl/grex/releases/download/v1.4.1/grex-v1.4.1-x86_64-pc-windows-msvc.zip'
-$checksum32  = '99c28787c5ccaa68a7e761748487ef0b436641d99e4c9bef53a693f783f77616'
+$url32       = 'https://github.com/pemistahl/grex/releases/download/v1.4.2/grex-v1.4.2-x86_64-pc-windows-msvc.zip'
+$checksum32  = '2825eb04deb5730242838830dfa321b4240f7bbec84a1cea73508d615f16c346'
 
 $packageArgs = @{
   packageName    = $packageName
