@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop'
+﻿$ErrorActionPreference = 'Stop'
 
 $FlyInstall = $env:FLYCTL_INSTALL
 $BinDir = if ($FlyInstall) {
@@ -8,7 +8,7 @@ $BinDir = if ($FlyInstall) {
 }
 
 $packageName = 'flyctl'
-$url64       = 'https://github.com/superfly/flyctl/releases/download/v0.1.69/flyctl_0.1.69_Windows_x86_64.zip'
+$url64       = 'https://github.com/superfly/flyctl/releases/download/v0.1.71/flyctl_0.1.71_Windows_x86_64.zip'
 $fileName = Split-Path -Path $url64 -Leaf
 
 Uninstall-ChocolateyZipPackage $packageName $fileName
