@@ -18,5 +18,9 @@ $packageArgs = @{
   checksumType64 = 'sha256'
   unzipLocation  = Split-Path $BinDir
 }
+
+# Remove old versions of flyctl residing in default directory
+Uninstall-BinFile $packageName
+
 Install-ChocolateyZipPackage @packageArgs
 Install-ChocolateyPath -PathToInstall "$(Split-Path $BinDir)"
