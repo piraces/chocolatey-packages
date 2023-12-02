@@ -1,7 +1,7 @@
 import-module au
 
 $name = "dagger"
-$base = "https://dagger-io.s3.amazonaws.com"
+$base = "https://dl.dagger.io"
 
 function global:au_SearchReplace {
     @{
