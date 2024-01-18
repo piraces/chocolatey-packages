@@ -7,7 +7,7 @@ Package can be verified like this:
 
 1. Go to
 
-   x64: https://github.com/google/osv-scanner/releases/download/v1.5.0/osv-scanner_1.5.0_windows_amd64.exe
+   x64: https://github.com/google/osv-scanner/releases/download/v1.6.1/osv-scanner_1.6.1_windows_amd64.exe
 
    to download the executable.
 
@@ -15,4 +15,4 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum64: EB975FBE0C933CD782C9F02C72E13D86CFF3D78F42B960D10972F5B8F0DD3FBE
+   checksum64: E8595D720B2509FB95E326EA1C1FAF8EF604D90CC20B6C27D7721050893FFC30
