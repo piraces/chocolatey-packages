@@ -6,7 +6,7 @@
     <version>0.8.0</version>
     <authors>Joe Davidson</authors>
     <owners>Raúl Piracés (piraces)</owners>
-    <summary>Simple, Convenient, Markdown based task runne</summary>
+    <summary>Simple, Convenient, Markdown based task runner</summary>
     <description>
 xc is a task runner designed to maximise convenience, and minimise complexity.
 
