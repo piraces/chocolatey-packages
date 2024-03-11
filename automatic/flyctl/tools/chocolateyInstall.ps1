@@ -8,8 +8,8 @@ $BinDir = if ($FlyInstall) {
 }
 
 $packageName = 'flyctl'
-$url64       = 'https://github.com/superfly/flyctl/releases/download/v0.2.16/flyctl_0.2.16_Windows_x86_64.zip'
-$checksum64  = '05f7a538a36224dcce3b2fc068624812214cf2a2df27b70cdfc93709b7e98bae'
+$url64       = 'https://github.com/superfly/flyctl/releases/download/v0.2.17/flyctl_0.2.17_Windows_x86_64.zip'
+$checksum64  = 'bd63abf9aaa7dcee7b197d1027acf86937f4b7442c2a837c08e03e07c224d8fa'
 
 $packageArgs = @{
   packageName    = $packageName
