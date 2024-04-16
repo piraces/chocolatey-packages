@@ -7,7 +7,7 @@ Package can be verified like this:
 
 1. Go to
 
-   x64: https://github.com/cloudquery/cloudquery/releases/download/cli-v5.15.0/cloudquery_windows_amd64.exe
+   x64: https://github.com/cloudquery/cloudquery/releases/download/cli-v5.15.1/cloudquery_windows_amd64.exe
 
    to download the executable.
 
@@ -15,4 +15,4 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum64: 1A13E81F8039024F2001EEA04696B3F3B222CD8F7E2095D483B5FF399D5FD1ED
+   checksum64: 6B5DF3B6D02077A2E0349E3E5A0356336979E25D43BCDC4BD77CE5972F5E122C
