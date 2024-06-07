@@ -3,7 +3,7 @@
   <metadata>
     <id>aztfexport</id>
     <title>Microsoft Azure Export for Terraform</title>
-    <version>0.14.1</version>
+    <version>0.14.2</version>
     <authors>Microsoft Azure</authors>
     <owners>Raúl Piracés (piraces)</owners>
     <summary>Microsoft Azure Export for Terraform – A tool to bring your existing Azure resources under the management of Terraform</summary>
