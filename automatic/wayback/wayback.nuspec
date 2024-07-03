@@ -3,7 +3,7 @@
   <metadata>
     <id>wayback</id>
     <title>Wayback</title>
-    <version>0.19.1</version>
+    <version>0.20.1</version>
     <authors>Wayback Archiver team, Wayback Committers</authors>
     <owners>Raúl Piracés (piraces)</owners>
     <summary>Wayback – An archiving tool with an IM-style interface, integrated with various archival services</summary>
