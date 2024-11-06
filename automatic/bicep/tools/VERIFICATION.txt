@@ -7,7 +7,7 @@ Package can be verified like this:
 
 1. Go to
 
-   x64: https://github.com/Azure/bicep/releases/download/v0.30.23/bicep-win-x64.exe
+   x64: https://github.com/Azure/bicep/releases/download/v0.31.34/bicep-win-x64.exe
 
    to download the executable.
 
@@ -15,4 +15,4 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum64: 0A384B57320FB6AEB0318272D29CC8AE741B5B9D5B499FC004B3761E7911D3E9
+   checksum64: D75901EC0C4FC756FE8EFEB37F1DC4A37DB5FCE002B52A4ACC758C3E92388CA6
