@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName = 'cue-cli'
-$url64       = 'https://github.com/cue-lang/cue/releases/download/v0.11.2/cue_v0.11.2_windows_amd64.zip'
-$checksum64  = '6ed58000562d070282dd060a48f059d152c99b50b80eb602af1b986b8e6f01b6'
+$url64       = 'https://github.com/cue-lang/cue/releases/download/v0.12.0/cue_v0.12.0_windows_amd64.zip'
+$checksum64  = '268bf95f4767b37d5db01450d55ca9d10e9a8bd8a1417c31dff456b5f9775abf'
 
 $packageArgs = @{
   packageName    = $packageName
