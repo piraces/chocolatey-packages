@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName = 'gitleaks'
-$url32       = 'https://github.com/gitleaks/gitleaks/releases/download/v8.23.3/gitleaks_8.23.3_windows_x32.zip'
-$url64       = 'https://github.com/gitleaks/gitleaks/releases/download/v8.23.3/gitleaks_8.23.3_windows_x64.zip'
-$checksum32  = 'e28c0db53e6be47308df0ca4eff2ed993af6a78c433c701c4cb94e9f9b294d41'
-$checksum64  = '1538330ae504a20bd0ffd0837ac301eac137609993d65ce15f3f826e32fad115'
+$url32       = 'https://github.com/gitleaks/gitleaks/releases/download/v8.24.2/gitleaks_8.24.2_windows_x32.zip'
+$url64       = 'https://github.com/gitleaks/gitleaks/releases/download/v8.24.2/gitleaks_8.24.2_windows_x64.zip'
+$checksum32  = '2f3ecedaab2721c4b1112a4078c63eddd3801b5771f53261da065ff57dae6daa'
+$checksum64  = 'cc47fdc0364964e2d346fbbcbe4cc87f34d490b2647508fb05930d0ec2fbff07'
 
 $packageArgs = @{
   packageName    = $packageName

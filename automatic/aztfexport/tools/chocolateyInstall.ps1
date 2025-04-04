@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName = 'aztfexport'
-$url32       = 'https://github.com/Azure/aztfexport/releases/download/v0.16.0/aztfexport_v0.16.0_windows_386.zip'
-$url64       = 'https://github.com/Azure/aztfexport/releases/download/v0.16.0/aztfexport_v0.16.0_windows_amd64.zip'
-$checksum32  = 'ea3b376aba0631ee7fa7c8ef3051167bff825d52264f317e9cc07c2b2fa049aa'
-$checksum64  = '4231396534e6c3e1c83ff0c30e0511c8dc1772d1e93d15f17263dffd351a5b95'
+$url32       = 'https://github.com/Azure/aztfexport/releases/download/v0.17.1/aztfexport_v0.17.1_windows_386.zip'
+$url64       = 'https://github.com/Azure/aztfexport/releases/download/v0.17.1/aztfexport_v0.17.1_windows_amd64.zip'
+$checksum32  = '95b465b4430b375d042351f69befd4ce0ca2eebbfc5bebd9daebcfc861907e27'
+$checksum64  = '9dc7d28b556e27f0bb1388f439dd79013f2cdb2cebaa8d27b9de9c120b5bc807'
 
 $packageArgs = @{
   packageName    = $packageName
