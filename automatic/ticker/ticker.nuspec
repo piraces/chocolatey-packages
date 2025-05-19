@@ -3,7 +3,7 @@
   <metadata>
     <id>ticker</id>
     <title>Ticker</title>
-    <version>5.0.1</version>
+    <version>5.0.2</version>
     <authors>Ani Channarasappa, ticker Committers</authors>
     <owners>Raúl Piracés (piraces)</owners>
     <summary>Ticker – Terminal stock watcher and stock position tracker</summary>
