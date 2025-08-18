@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName = 'dagger'
-$url64       = 'https://dl.dagger.io/dagger/releases/0.18.14/dagger_v0.18.14_windows_amd64.zip'
-$checksum64  = 'd579fdf671380658a006bca2908011d76fc095a4d55ac2286d0213c4404c2411'
+$url64       = 'https://dl.dagger.io/dagger/releases/0.18.15/dagger_v0.18.15_windows_amd64.zip'
+$checksum64  = 'b662d931106f6f02e8558eae3a799f55b59e65c06404216ef298a6402cd39bc7'
 
 $packageArgs = @{
   packageName    = $packageName
