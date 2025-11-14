@@ -3,7 +3,7 @@
   <metadata>
     <id>cloudquery</id>
     <title>CloudQuery</title>
-    <version>6.30.2</version>
+    <version>6.30.3</version>
     <authors>CloudQuery, CloudQuery CLI Committers</authors>
     <owners>stroobantsdev, Raúl Piracés (piraces)</owners>
     <summary>CloudQuery – The open source high performance data integration platform built for developers</summary>
