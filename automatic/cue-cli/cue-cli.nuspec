@@ -3,7 +3,7 @@
   <metadata>
     <id>cue-cli</id>
     <title>CUE CLI</title>
-    <version>0.15.2</version>
+    <version>0.15.3</version>
     <authors>CUE language organization, cue Committers</authors>
     <owners>Raúl Piracés (piraces)</owners>
     <summary>cue – CLI utility for CUE Data Constraint Language</summary>
