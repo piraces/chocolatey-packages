@@ -3,7 +3,7 @@
   <metadata>
     <id>flyctl</id>
     <title>flyctl</title>
-    <version>0.4.6</version>
+    <version>0.4.7</version>
     <authors>Fly.io</authors>
     <owners>Raúl Piracés (piraces)</owners>
     <summary>flyctl – flyctl is a command-line interface for fly.io</summary>
