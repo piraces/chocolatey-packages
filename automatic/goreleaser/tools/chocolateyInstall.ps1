@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName = 'goreleaser'
-$url32       = 'https://github.com/goreleaser/goreleaser/releases/download/v2.15.0/goreleaser_Windows_i386.zip'
-$url64       = 'https://github.com/goreleaser/goreleaser/releases/download/v2.15.0/goreleaser_Windows_x86_64.zip'
-$checksum32  = 'd50c90915844e01df37b3008f1525f73decc1fd144e51efaca6a1f3931123b24'
-$checksum64  = '221c7dc162e88442b428e793db6d8b29859d58b8136d3877b06ad94420f37750'
+$url32       = 'https://github.com/goreleaser/goreleaser/releases/download/v2.15.1/goreleaser_Windows_i386.zip'
+$url64       = 'https://github.com/goreleaser/goreleaser/releases/download/v2.15.1/goreleaser_Windows_x86_64.zip'
+$checksum32  = '94f3a7541cf95b2f57cd9131495bbd49dc14f5ad77774043411d346a8e9fa964'
+$checksum64  = 'eea84855c779e0fca328da9e0b9683e888707fefeec361ea3fe64f4c990ce652'
 
 $packageArgs = @{
   packageName    = $packageName
