@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName = 'wayback'
-$url32       = 'https://github.com/wabarc/wayback/releases/download/v0.20.1/wayback-windows-386-0.20.1.zip'
-$url64       = 'https://github.com/wabarc/wayback/releases/download/v0.20.1/wayback-windows-amd64-0.20.1.zip'
-$checksum32  = '4ac4ad4d3a91666a3512e845838e47e618f1065fb5849e25f1607995c87d99d4'
-$checksum64  = '28d814af1c60da2a2cbeed2ca85d61ffe861e59d0b58b4ab58d350b6fe854df6'
+$url32       = 'https://github.com/wabarc/wayback/releases/download/v0.21.1/wayback-windows-386-0.21.1.zip'
+$url64       = 'https://github.com/wabarc/wayback/releases/download/v0.21.1/wayback-windows-amd64-0.21.1.zip'
+$checksum32  = '862d7f81b6f4865ef9f750bce72c6d288e52715c4b1d58c9f392398b569cb32f'
+$checksum64  = '80c5b353d8fc180d725d76a44758ad6c3fa6dc381c2bd56b0e21ce785b9f15e2'
 
 $unzipLocation = (Split-Path $MyInvocation.MyCommand.Definition)
 
