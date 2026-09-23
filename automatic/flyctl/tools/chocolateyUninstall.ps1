@@ -8,7 +8,7 @@ $BinDir = if ($FlyInstall) {
 }
 
 $packageName = 'flyctl'
-$url64       = 'https://github.com/superfly/flyctl/releases/download/v0.4.106/flyctl_0.4.106_Windows_x86_64.zip'
+$url64       = 'https://github.com/superfly/flyctl/releases/download/v0.4.107/flyctl_0.4.107_Windows_x86_64.zip'
 $fileName = Split-Path -Path $url64 -Leaf
 
 Uninstall-ChocolateyZipPackage $packageName $fileName
